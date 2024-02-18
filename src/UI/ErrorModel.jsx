@@ -4,7 +4,7 @@ import classes from './ErrorModal.module.css';
 
 const ErrorModalOverlay = (props) => {
   return (
-    <div className={classes.backdrop}>
+    <div className={classes.backdrop} data-testid="model-dialog">
       <div className={classes.container}>
         <section>
           <header className={classes.header}>

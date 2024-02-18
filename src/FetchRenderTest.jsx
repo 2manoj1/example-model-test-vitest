@@ -10,7 +10,7 @@ function FetchRenderTest() {
   const confirmHandler = async () => {
     let domain = window.location.hostname;
     try {
-      const response = await fetch('<this is url>', {
+      const response = await fetch('https://65d1ac70987977636bfb57a9.mockapi.io/api/v1/test', {
         method: 'PUT',
         headers: {
           'Content-type': 'application/json',
